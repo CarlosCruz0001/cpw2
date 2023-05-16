@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/fonts.css" />
+    <link rel="stylesheet" href="css/index.css" />
+    <title>TV Search</title>
+  </head>
+
+  <body>
+    <div id="container">
+      <div id="form-area">
+
+        <!--lembra de configuar o form-->
+        <form onsubmit="searchShows(event)">
+          <input type="text" id="query" placeholder="Digite o título do show" />
+
+          <!--aqui era um input, agora é um button, pode ser que dê problema-->
+          <input type="submit" value="Procurar" id="search-button"/>
+          
+          <!--
+          <button id="search-button" type="submit">
+            <img src="img/search_FILL0_wght400_GRAD0_opsz48.png" alt="search">
+          </button>-->
+        </form>
+
+        <button id="menu-button" type="submit">
+            <img src="img/menu_FILL0_wght400_GRAD0_opsz48.png" alt="menu">
+        </button>
+
+      </div>
+
+      <!--Lembra que aqui vc vai ter que colocar a mensagem de quando nenhum show for encontrado-->
+      <div id="shows-area"></div>
+
+    </div>
+
+    <script src="js/index.js"></script>
+  </body>
+</html>
