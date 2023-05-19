@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TV - Search - Favoritos</title>
+    <link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="css/favoritos.css">
+</head>
+<body>
+    <div id="container">
+        <h1>Meus Favoritos</h1>
+    <div id="shows-area"></div>
+    
+    <h2 id="sem-shows-favoritos">Você não favoritou nenhum show!</h2>
+
+
+    <form onclick="backButton(event)">
+        <input type="button" id="back-link" value="voltar" onclick="history.back()">
+    </form>
+
+    
+</div>
+    <script src="js/favoritos.js"></script>
+</body>
+</html>

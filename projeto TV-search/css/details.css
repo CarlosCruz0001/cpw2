@@ -1,0 +1,50 @@
+body{
+    margin: 0px;
+    background-color: #000814;
+}
+
+#container {
+    padding: 50px 0;
+}
+
+#details-panel {
+    width: 500px;
+    margin: 0 auto 30px auto;
+    display: flex;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #001D3D,
+                -10px -10px 20px #001D3D;
+}
+
+#poster {
+    margin-right: 20px;
+    width: 210px;
+}
+
+.metadata {
+    margin-bottom: 10px;
+}
+
+.metadata-title {
+    font-family: 'bold';
+    color: #FFC300;
+}
+
+.metadata-value {
+    font-family: 'regular';
+    color: #93c5de;
+}
+
+#back-link {
+    display: block;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    text-decoration: none;
+    font-family: 'bold';
+    background-color: #2d55ff;
+    padding: 10px 0;
+    color: white;
+    border-radius: 10px;
+}

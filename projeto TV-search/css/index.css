@@ -1,0 +1,125 @@
+body {
+    margin: 0;
+    background-color: #000814;
+}
+
+#container {
+    padding: 50px 0;
+}
+
+#form-area {
+    width: 1700px;
+    margin: 0 auto 30px auto;
+   padding: 20px;
+   display: flex;
+   justify-content: flex-end;
+   
+}
+
+#form-area form {
+    display: flex;
+    align-items: center;
+   justify-content: right;
+}
+
+#query {
+    width: 400px;
+    height: 34px;
+    font-family: 'regular';
+    text-align: center;
+    color: black;
+    font-size: 100%;
+    background-color: white;
+    border: 2px solid #20475A;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+#query:focus {
+    outline: 2px solid #c5eff7;
+}
+
+#search-button {
+    padding: 10px 20px;
+    border: none;
+    font-family: bold;
+    font-size: 100%;
+    border-radius: 10px;
+    background-image: url(../img/5955449_find_glass_magnifier_search_zoom_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    background-color: #2d55ff;
+    color: white;
+    cursor: pointer;
+}
+
+#favoritos-button{
+    padding: 10px 20px;
+    border: none;
+    font-family: bold;
+    font-size: 100%;
+    border-radius: 10px;
+    background-image: url(../img/1679548_christmas_decorate_decoration_star_icon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px;
+    background-color: #FFD60A;
+    color: white;
+    cursor: pointer;
+    margin: 15px;
+}
+
+#not-found-message {
+    display: none;
+    text-align: center;
+    font-family: 'bold';
+    color: #FFD60A;
+}
+
+#shows-area {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.show-card {
+    width: 22%;
+    border-radius: 20px;
+    box-shadow: 10px 10px 20px #001D3D,
+                -10px -10px 20px #001D3D;
+    margin: 20px;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.show-card img {
+    cursor: pointer;
+    width: 100%;
+}
+
+#areaBotao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+#favoritar-botao {
+    height: 30px; 
+    width: 30px;
+    align-items: center;
+}
+
+.show-card h3 {
+    font-family: 'bold';
+    text-align: center;
+    cursor: pointer;
+}
+
+.show-card a {
+    text-decoration: none;
+    color: #FFD60A;
+}
