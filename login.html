@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/login.css">
+  <link rel="stylesheet" href="css/responsive.css/login.responsive.css">
+  <title>Login</title>
+</head>
+<body>
+ 
+  <div id="form-container">
+    <form id="login-form">
+      <input 
+        type="email" 
+        id="email" 
+        placeholder="E-mail" 
+        required>
+
+      <input 
+        type="password" 
+        id="password"
+        placeholder="Senha"
+        required>
+      <div id="container-button-submit">
+      <input type="submit" value="Entrar" id="submit-button">
+    </div>
+    </form>
+
+  </div>
+
+  <a href="create_user.html" id="create-user-link">
+    Clique aqui para criar uma conta
+  </a>
+
+  <div id="result-panel">
+  </div>
+
+
+  <script type="module" src="/src/login.js"></script>
+</body>
+</html>

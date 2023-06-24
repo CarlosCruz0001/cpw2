@@ -1,0 +1,107 @@
+body{
+    background-color: #250902;
+    color: white;
+    font-family: 'text';
+    max-width: 1200;
+    margin: 0 auto;
+    padding: 50px 150px;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+    font-size:30px 
+}
+
+
+li{
+    display: inline-block;
+    margin: 20px;
+    font-size: 30px;
+}
+
+a{
+    color: white;
+}
+
+a:hover{
+    color: #800E13;
+    transition: 0.3s all ;
+}
+#fotos-btn{
+    border: 2px solid #800E13;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+#fotos-btn:hover{
+    background-color: #800E13;
+    color: white;
+}
+
+h1{
+    font-weight: 200px;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
+}
+
+h2{
+    font-size: 56px;
+    line-height: 10px;
+    font-family: 'title';
+}
+
+span{
+    color: #800E13;
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'test';
+}
+
+#wine{
+    width: 880px;
+    box-shadow: 1px 5px 50px 7px #ad28317f;
+    border-radius: 15px;
+    margin-left: 290px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form [type="submit"]{
+    height: 50px;
+    width: 150px;
+    background-color: #800E13;
+    color: white; 
+    font-weight: bold;
+}
+
+form [type="submit"]:hover{
+    cursor: pointer;
+}
+
+input{
+    margin-top: 20px;
+    height: 20px;
+    padding: 15px;
+    border-radius: 20px;
+    border: none;
+    font-size: 15px;
+}
